@@ -11,7 +11,7 @@
   "navigation": {
     "languages": [
       {
-        "language": "es",
+        "language": "en",
         "tabs": [
           {
             "tab": "How ChatBlend Works?",
@@ -318,9 +318,44 @@
                   "whatsapp-cloud-api-by-meta/update_whatsapp_bot_profile",
                   "whatsapp-cloud-api-by-meta/getting_blue_tick"
                 ]
-              }
+              },
+                {
+            "group": "WhatsApp Bot Creation with Manual Onboarding",
+            "pages": [
+              "whatsapp-bot-creation/prerequisites",
+              "whatsapp-bot-creation/create_meta_app",
+              "whatsapp-bot-creation/register_verify_number",
+              "whatsapp-bot-creation/subscribe_wa_webhook",
+              "whatsapp-bot-creation/update_payment_method",
+              "whatsapp-bot-creation/assign_system_user",
+              "whatsapp-bot-creation/getting_necessary_details"
             ]
           },
+           {
+            "group": "WhatsApp And Meta",
+            "pages": [
+              "whatsapp-meta/bot_creation_with_automation",
+              "whatsapp-meta/migration_of_account",
+              "whatsapp-meta/reconnect_bot",
+              "whatsapp-meta/recover_restricted_account"
+            ]
+          },
+          {
+            "group": "Must Know How Of Convertalk",
+            "pages": [
+              "must-know-how-of-Convertalk/manage_use_custom_attributes",
+              "must-know-how-of-Convertalk/call_external_api",
+              "must-know-how-of-Convertalk/managing_team_roles",
+              "must-know-how-of-Convertalk/unlocking_botpenguin_ai",
+              "must-know-how-of-Convertalk/support_agent_guide",
+              "must-know-how-of-Convertalk/whatsapp_notification",
+              "must-know-how-of-Convertalk/chatbot_user_authentication"
+            ]
+          }
+          
+        ]
+      },
+            
 
           {
             "tab": "Platform Updates & Info",
@@ -330,33 +365,33 @@
                 "pages": [
                   "what-new/latest_updates"
                 ]
-              }
+              },
+               {
+            "group": "Report A Bug!",
+            "pages": [
+              "report-bug/bug_submission"
             ]
           },
-
           {
-            "tab": "API References",
-            "groups": [
-              {
-                "group": "Contact & Chats APIs",
-                "pages": [
-                  "contact-chat/get_all_contact",
-                  "contact-chat/getting_group_segment",
-                  "contact-chat/add_whatsapp_contact",
-                  "contact-chat/delete_whatsapp_contact",
-                  "contact-chat/website_data_metadata"
-                ]
-              },
-              {
-                "group": "WhatsApp Cloud API",
-                "pages": [
-                  "whatsapp-cloud-api/get_template_list",
-                  "whatsapp-cloud-api/whatsapp_template",
-                  "whatsapp-cloud-api/post_send_template_message"
-                ]
-              }
+            "group": "Feature Requests",
+            "pages": [
+              "feature-request/request_tracker"
+            ]
+          },
+          {
+            "group": "Convertalk Roadmap",
+            "pages": [
+              "Convertalk-roadmap/development_timeline"
+            ]
+          },
+          {
+            "group": "Connect With Us",
+            "pages": [
+              "connect-with-us/community_hub"
             ]
           }
+        ]
+      }
         ]
       }
     ]
@@ -379,7 +414,7 @@
     "primary": {
       "type": "button",
       "label": "Dashboard",
-      "href": "https://bot.ChatBlend.com"
+      "href": "https://bot.ChatBlend.ai"
     }
   },
 
