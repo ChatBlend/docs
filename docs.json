@@ -1,37 +1,41 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "mintlify ",
+  "name": "mintlify",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
     "dark": "#15803D"
   },
-  
+
   "navigation": {
-     "languages": [
+    "languages": [
       {
         "language": "es",
-    "tabs": [
-       {
-        "tab": "How ChatBlend Works?",
-        "groups": [
-           {
-            "group": "Onboarding",
-            "pages": [
-              "onboarding/how_to_get_started"
-            ]
-          },
+        "tabs": [
           {
-            "group": "Create New Chatbot",
-            "pages": [
-              "how-ChatBlend-works/website_chatbot",
-              "how-ChatBlend-works/landing_page_chatbot",
-              "how-ChatBlend-works/whatsapp_chatbot",
-              "how-ChatBlend-works/instagram_chatbot",
-              "how-ChatBlend-works/facebook_chatbot",
-              "how-ChatBlend-works/telegram_chatbot"            ]
-          },
+            "tab": "How ChatBlend Works?",
+            "groups": [
+              {
+                "group": "Onboarding",
+                "pages": [
+                  "onboarding/how_to_get_started"
+                ]
+              },
+              {
+                "group": "Create New Chatbot",
+                "pages": [
+                  "how-ChatBlend-works/website_chatbot",
+                  "how-ChatBlend-works/landing_page_chatbot",
+                  "how-ChatBlend-works/whatsapp_chatbot",
+                  "how-ChatBlend-works/instagram_chatbot",
+                  "how-ChatBlend-works/facebook_chatbot",
+                  "how-ChatBlend-works/telegram_chatbot"
+                ]
+              },
+            
+        
+
           {
             "group": "Edit Your Chatflow",
             "pages": [
@@ -302,123 +306,69 @@
           }
         ]
       },
-       {
-        "tab": "Platform Guidelines & Training",
-        "groups": [
+
           {
-            "group": "WhatsApp Cloud API by Meta",
-            "pages": [
-              "whatsapp-cloud-api-by-meta/setting_facebook_business_manager",
-              "whatsapp-cloud-api-by-meta/meta_conversation_pricing",
-              "whatsapp-cloud-api-by-meta/update_whatsapp_bot_profile",
-              "whatsapp-cloud-api-by-meta/getting_blue_tick"
+            "tab": "Platform Guidelines & Training",
+            "groups": [
+              {
+                "group": "WhatsApp Cloud API by Meta",
+                "pages": [
+                  "whatsapp-cloud-api-by-meta/setting_facebook_business_manager",
+                  "whatsapp-cloud-api-by-meta/meta_conversation_pricing",
+                  "whatsapp-cloud-api-by-meta/update_whatsapp_bot_profile",
+                  "whatsapp-cloud-api-by-meta/getting_blue_tick"
+                ]
+              }
             ]
           },
+
           {
-            "group": "WhatsApp Bot Creation with Manual Onboarding",
-            "pages": [
-              "whatsapp-bot-creation/prerequisites",
-              "whatsapp-bot-creation/create_meta_app",
-              "whatsapp-bot-creation/register_verify_number",
-              "whatsapp-bot-creation/subscribe_wa_webhook",
-              "whatsapp-bot-creation/update_payment_method",
-              "whatsapp-bot-creation/assign_system_user",
-              "whatsapp-bot-creation/getting_necessary_details"
+            "tab": "Platform Updates & Info",
+            "groups": [
+              {
+                "group": "What's New",
+                "pages": [
+                  "what-new/latest_updates"
+                ]
+              }
             ]
           },
-           {
-            "group": "WhatsApp And Meta",
-            "pages": [
-              "whatsapp-meta/bot_creation_with_automation",
-              "whatsapp-meta/migration_of_account",
-              "whatsapp-meta/reconnect_bot",
-              "whatsapp-meta/recover_restricted_account"
-            ]
-          },
+
           {
-            "group": "Must Know How Of ChatBlend",
-            "pages": [
-              "must-know-how-of-ChatBlend/manage_use_custom_attributes",
-              "must-know-how-of-ChatBlend/call_external_api",
-              "must-know-how-of-ChatBlend/managing_team_roles",
-              "must-know-how-of-ChatBlend/unlocking_botpenguin_ai",
-              "must-know-how-of-ChatBlend/support_agent_guide",
-              "must-know-how-of-ChatBlend/whatsapp_notification",
-              "must-know-how-of-ChatBlend/chatbot_user_authentication"
-            ]
-          }
-          
-        ]
-      },
-       {
-        "tab": "Platform Updates & Info",
-        "groups": [
-          {
-            "group": "What's New",
-            "pages": [
-              "what-new/latest_updates"
-            ]
-          },
-          {
-            "group": "Report A Bug!",
-            "pages": [
-              "report-bug/bug_submission"
-            ]
-          },
-          {
-            "group": "Feature Requests",
-            "pages": [
-              "feature-request/request_tracker"
-            ]
-          },
-          {
-            "group": "ChatBlend Roadmap",
-            "pages": [
-              "ChatBlend-roadmap/development_timeline"
-            ]
-          },
-          {
-            "group": "Connect With Us",
-            "pages": [
-              "connect-with-us/community_hub"
-            ]
-          }
-        ]
-      },
-       {
-        "tab": "API References",
-        "groups": [
-          {
-            "group": "Contact & Chats APIs",
-            "pages": [
-              "contact-chat/get_all_contact",
-              "contact-chat/getting_group_segment",
-              "contact-chat/add_whatsapp_contact",
-              "contact-chat/delete_whatsapp_contact",
-              "contact-chat/website_data_metadata"
-            ]
-          },
-          {
-            "group": "WhatsApp Cloud API",
-            "pages": [
-              "whatsapp-cloud-api/get_template_list",
-              "whatsapp-cloud-api/whatsapp_template",
-              "whatsapp-cloud-api/post_send_template_message"
+            "tab": "API References",
+            "groups": [
+              {
+                "group": "Contact & Chats APIs",
+                "pages": [
+                  "contact-chat/get_all_contact",
+                  "contact-chat/getting_group_segment",
+                  "contact-chat/add_whatsapp_contact",
+                  "contact-chat/delete_whatsapp_contact",
+                  "contact-chat/website_data_metadata"
+                ]
+              },
+              {
+                "group": "WhatsApp Cloud API",
+                "pages": [
+                  "whatsapp-cloud-api/get_template_list",
+                  "whatsapp-cloud-api/whatsapp_template",
+                  "whatsapp-cloud-api/post_send_template_message"
+                ]
+              }
             ]
           }
         ]
       }
-     
-    ],
-    "global": {
-    }
+    ]
   },
+
   "favicon": "ChatBlendLogo.png",
 
   "logo": {
     "light": "/logo/Light_and_Dark_ChatBlend.png",
     "dark": "/logo/Light_and_Dark_ChatBlend.png"
   },
+
   "navbar": {
     "links": [
       {
@@ -432,6 +382,7 @@
       "href": "https://bot.ChatBlend.com"
     }
   },
+
   "footer": {
     "socials": {
       "x": "https://x.com/mintlify",
@@ -439,5 +390,4 @@
       "linkedin": "https://linkedin.com/company/mintlify"
     }
   }
-     ]
 }
