@@ -1,56 +1,78 @@
 ---
-title: "Integrate  Convertalk with Elevio CRM"
-description: "This page contains the stepwise tutorial for the integration with  Convertalk"
+title: "Integrate Convertalk with Elevio CRM"
+description: "This page contains the stepwise tutorial for integrating Convertalk with Elevio CRM."
 ---
 
-### **Step 1 of 5: Login to  Convertalk Account and Select Application to Integrate**
+## Overview
 
-1. Login to your  Convertalk account. Now, select and click the Bot you want to integrate with Elevio CRM. Click on the\*\*‘Integrate tab.’\*\*
-2. The Integrate Window Will Open up. Select the \*\*‘All Integrations’ \*\*Tab.
-3. A list of all native integrations for  Convertalk will be available in this window.
-4. Now find Elevio CRM by:-
-   - Either by scrolling down the list or,
-   - by typing **‘Elevio’** in the Search Box with the placeholder “Search Integration By Name”
-5. Now Click On The **‘Connect’** Button As Shown
-6. An Interface, as shown below, will open up. Here, you will be asked to enter:
-   - API Key that you will get by logging into your Elevio account, or
-   - Access Tokenthat you will get by logging into your Elevio account.
+This guide walks you through connecting Convertalk with Elevio CRM in 5 steps — from logging in and finding your API credentials, to mapping parameters and testing your first lead.
 
-### **Step 2 of 5: Find your Authorization Key/Token in App Account**
+---
 
-1. To get the API Key and Access Token, login to the Elevio account. On the bottom left corner, hover over the settings icon and click on the **‘API Keys’** tab\*\*.\*\*
-2. Scroll down the page . In case there is no API Key listed, you can click on ‘Create API Key’ tab to create one. Enter a ‘Description’ e.g. ‘New API Key’ or ‘API Key for  Convertalk’.
-3. Click on one of the option and ‘Generate API Key’
-4. Your API Key label will be listed at the bottom of the page. Click on ‘View Key & Token’ and copy your Elevio API Key and Access Token.
+## Step 1: Access the Elevio Integration in Convertalk
 
-### **Step 3 of 5: Enter Authorization Details and establish connection with your App**
+1. Log in to your Convertalk account.
+2. Select the bot you want to integrate and click on the **"Integrate"** tab.
+3. Go to the **"All Integrations"** tab.
+4. Find **Elevio CRM** by scrolling the list or searching **"Elevio"** in the search bar.
+5. Click the **"Connect"** button.
+6. You will be prompted to enter:
+   - **API Key**
+   - **Access Token**
 
-1. Enter Elevio API key and Access Token, and click the ‘Connect’ Button to complete integration of  Convertalk with Elevio CRM.
-2. If you have entered all the details correctly, you will see a notification that says, “**Integrated Successfully.”**
+Both are obtained from your Elevio account (see Step 2).
 
-### **Step 4 of 5: Set up Mapping Parameters**
+---
 
-1. Now, as connection of the  Convertalk and Elevio is established, you need to map **parameters (fields) of Elevio** to the user response of the  Convertalk question. You can use the **\+Add Parameters** button to add more fields.
+## Step 2: Get Your API Key and Access Token from Elevio
 
-   For example, you select a question from All bot questions/components: Please provide your name?. Then, you map it with the parameter -Name
+1. Log in to your Elevio account.
+2. Hover over the **Settings** icon in the bottom-left corner and click **"API Keys"**.
+3. If no API key exists, click **"Create API Key"**, enter a description (e.g., *"API Key for Convertalk"*), and click **"Generate API Key"**.
+4. Click **"View Key & Token"** and copy your **API Key** and **Access Token**.
 
-   As a result, this mapping will enable integration to send the user's response from  Convertalk to the Elevio’s \*\*Name \*\*field in the leads. Similarly, in order for integration to work properly, you will require to map all other questions/ components of your Bot to Elevio fields.
+---
+
+## Step 3: Connect Elevio to Convertalk
+
+1. Enter the **API Key** and **Access Token** in Convertalk.
+2. Click **"Connect"**.
+3. If entered correctly, you will see: **"Integrated Successfully."**
+
+---
+
+## Step 4: Map Parameters
+
+1. Map the **Elevio fields** to the corresponding questions in your Convertalk chatbot flow.
+2. Use the **"+ Add Parameters"** button to add more field mappings.
+
+**Example:** Map the question *"Please provide your name?"* to Elevio's **Name** field. This ensures the user's response is sent to the correct field in Elevio.
 
 <Info>
-  The queries/questions options will be auto fetched from your bot chat flow, So, make sure you configure your chat flow first.
+Questions are auto-fetched from your bot's chat flow. Make sure your chat flow is configured before setting up mappings.
 </Info>
 
-2. If you have entered all the details correctly, you will see a notification that says, “**Mapping successfully.**
-3. Also, your Elevio CRM integration will show the message \*\*Installed \*\*in the Integration List.
+3. Once all fields are mapped correctly, you will see: **"Mapping Successfully."**
+4. The Elevio integration will show as **"Installed"** in the integrations list.
 
-### **Step 5 of 5: Test your Integration Set up with Data**
+---
 
-Once you have established a connection between \*\* Convertalk\*\* and **Elevio**, and the mapping is complete, you are ready to go for your first test lead. You can test your integration setup by creating a dummy lead on the bot. This lead should appear in your  Convertalk dashboard as well as in the Elevio you have integrated.
+## Step 5: Test Your Integration
 
-### **Still Not Working, Let’s Troubleshoot\!**
+Create a dummy lead on your bot. The lead should appear in both your Convertalk dashboard and your Elevio CRM account.
 
-If you are not getting dummy lead from your Bot to Elevio, it may be due to the multiple reasons:
+---
 
-- Wrong Authorization Details added- You will be required to check and see if all the authorization credentials such as API Token, API key, and/or URL has been entered correctly.
-- Wrong Mapping Set up - Your mapping with  Convertalk Question and CRM parameter is either incorrect or you haven’t added any mandatory parameter.
-- Free plan- You are not subscribed to the paid plan on  Convertalk as integration works only in paid plan.
+## Troubleshooting
+
+If the dummy lead is not appearing in Elevio, check the following:
+
+- **Wrong Authorization Details** — Verify that the API Key and Access Token are entered correctly.
+- **Wrong Mapping Setup** — Ensure all mandatory Elevio fields are mapped to the correct Convertalk questions.
+- **Subscription** — Integrations are only available on paid plans. Verify your current subscription.
+
+---
+
+<Tip>
+If you are still unable to move forward, write to us at [support@convertalk.com](mailto:support@convertalk.com). We will respond within 48 business hours.
+</Tip>

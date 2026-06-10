@@ -1,4 +1,165 @@
 ---
 title: "API Access Token"
-description: "This guide will tell you how you can access the API Token on the  Convertalk Platform"
+description: "This page contains information about configuring and managing third-party APIs in Convertalk."
 ---
+
+## APIs Management
+
+The **APIs Management** section allows you to add, configure, test, and manage all third-party APIs that can be used inside your chatbot flows.
+
+You can use these APIs to:
+
+- Send data to external systems
+- Fetch customer details
+- Trigger third-party actions
+- Automate workflows after bot interactions
+
+---
+
+### How to Access APIs Management
+
+1. Go to **More** from the left sidebar.
+2. Click on **3rd Party APIs**.
+3. You will land on the **APIs Management** page.
+
+---
+
+### Overview of the APIs Management Page
+
+**Search Bar** — Use the search bar to quickly find a configured API by name.
+
+**Add API** — Click **"Add API"** in the top-right corner to create a new API configuration.
+
+**API List Table** — The table displays all configured APIs with the following details:
+
+| Column   | Description                              |
+|----------|------------------------------------------|
+| API Name | Name given to the API                    |
+| Method   | Request type (GET, POST, PUT, DELETE)    |
+| URL      | Configured API endpoint                  |
+| Actions  | Edit or Delete the API                   |
+
+---
+
+### Managing an Existing API
+
+**Edit API** — Click the **Edit** icon to modify the API URL, headers, parameters, body, or response mapping.
+
+**Delete API** — Click the **Delete** icon to show a confirmation popup. Confirming will permanently delete the API.
+
+<Warning>
+Deleting an API may impact any chatbot flow where it is currently in use.
+</Warning>
+
+---
+
+## Setting Up a 3rd Party API
+
+1. Log in to your Convertalk Dashboard.
+2. Go to **More** from the left sidebar.
+3. Click on **3rd Party APIs**.
+4. Click **"Add API"** to begin.
+
+---
+
+### Configure 3rd Party API
+
+#### a. Basic Configuration
+
+Fill in the following fields:
+
+- **API Name** — Enter a unique name for the API.
+- **Method Type** — Choose from GET, POST, PUT, or DELETE.
+- **API URL** — Enter the complete endpoint URL.
+- **Description** — (Optional) Add internal notes about what this API does.
+
+Click **"Test"** to check the API response before saving.
+
+---
+
+#### b. Configure Request Details
+
+- **Parameters Tab** — Add key-value pairs for query parameters. Click **"Add Another Field"** to add more.
+- **Headers Tab** — Add required headers such as Authorization or Content-Type.
+- **Body Tab** — Required for POST/PUT requests. Add JSON or form data based on the API requirements.
+
+---
+
+#### c. Manage API Responses
+
+Use **Manage API Responses** to:
+
+- Map response fields to custom attributes.
+- Save API responses for reuse inside chatbot flows.
+- Trigger conditional logic based on response values.
+
+---
+
+#### d. Third-Party Integration
+
+Configure how this API connects with:
+
+- Chatbot flows
+- AI Agents
+- Live Chat automation
+
+---
+
+#### e. Final Step
+
+Click **"Save"** after successful testing.
+
+---
+
+### Use API in Chatbot Flow
+
+1. Create a new flow and add questions to capture user inputs.
+2. Open the **Request Information** tab and select the **API Component**.
+3. Choose the API you configured.
+4. Set up response handling:
+   - **Success (200)** — Redirect the user to a success message or next step.
+   - **Failure (4xx)** — Redirect to a fallback message.
+   - **Server Error (5xx)** — Redirect to another prompt.
+
+---
+
+### Testing & API Logs
+
+1. Test your API flow using **"Test Live"**.
+2. Navigate to **More → 3rd Party APIs → Select your API → API Logs → View**.
+3. Here you can check:
+   - API call history
+   - Response codes (200, 400, 500, etc.)
+   - Errors and reasons for failure
+
+---
+
+## FAQs
+
+<AccordionGroup>
+  <Accordion title="Can I use multiple APIs in one chatbot flow?">
+    Yes, you can configure multiple APIs and call them at different stages in your flow.
+  </Accordion>
+
+  <Accordion title="What if my API requires authentication headers?">
+    You can add authorization tokens or keys in the **Headers** section of your API setup.
+  </Accordion>
+
+  <Accordion title="Can I pass user inputs dynamically to the API?">
+    Yes, by mapping **custom attributes** to API parameters, headers, or body fields.
+  </Accordion>
+
+  <Accordion title="What happens if the API fails?">
+    Convertalk automatically follows your configured fallback path for error or unknown error scenarios.
+  </Accordion>
+
+  <Accordion title="Where can I debug API failures?">
+    Check the **API Logs** section to see full request and response details.
+  </Accordion>
+</AccordionGroup>
+
+---
+
+<Tip>
+If you still have questions, write to us at [support@convertalk.com](mailto:support@convertalk.com). We will respond within 48 business hours.
+</Tip>

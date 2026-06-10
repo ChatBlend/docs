@@ -1,80 +1,76 @@
 ---
-title: "Integrate  Convertalk with Extraaedge CRM"
-description: "This page contains the stepwise tutorial for the integration with  Convertalk"
+title: "Integrate Convertalk with Extraaedge CRM"
+description: "This page contains the stepwise tutorial for integrating Convertalk with Extraaedge CRM."
 ---
 
-### **Step 1 of 5: Login to  Convertalk Account and Select Application to Integrate**
+## Overview
 
-a. Login to your  Convertalk account. Now, select and click the Bot you want to integrate
+This guide walks you through connecting Convertalk with Extraaedge CRM in 5 steps — from logging in and finding your credentials, to mapping parameters and testing your first lead.
 
-with Extraaedge CRM. Click on the ‘Integrate tab.’
+---
 
-b. The Integrate Window Will Open up. Select the ‘All Integrations’ Tab.
+## Step 1: Access the Extraaedge Integration in Convertalk
 
-c. A list of all native integrations for  Convertalk will be available in this window.
+1. Log in to your Convertalk account.
+2. Select the bot you want to integrate and click on the **"Integrate"** tab.
+3. Go to the **"All Integrations"** tab.
+4. Find **Extraaedge CRM** by scrolling the list or searching **"Extraaedge"** in the search bar.
+5. Click the **"Connect"** button.
+6. You will be prompted to enter:
+   - **Authorization Token**
+   - **Source**
 
-d. Now find Extraaedge CRM by:-
+Both are obtained from Extraaedge (see Step 2).
 
-- Either by scrolling down the list or,
-- by typing **‘Extraaedge’** in the Search Box with the placeholder “Search Integration By Name”
+---
 
-e. Now Click On The **‘Connect’** Button As Shown
+## Step 2: Get Your Authorization Token and Source from Extraaedge
 
-f. An Interface, as shown below, will open up. Here, you will be asked to enter
+1. Visit [extraaedge.com](http://extraaedge.com) and request a demo setup by submitting your details.
+2. Extraaedge will email you the demo setup details including your **Authorization Token** and **Source** for the integration.
 
-- Authorization Token
-- Source
+---
 
-that you will get by logging into your Extraaedge account.
+## Step 3: Connect Extraaedge to Convertalk
 
-### **Step 2 of 5: Find your Authorization Key/Token in App Account**
+1. Enter the **Authorization Token** and **Source** in Convertalk.
+2. Click **"Connect"**.
+3. If entered correctly, you will see: **"Integrated Successfully."**
 
-To get the Authorization Token, go to [extraaedge.com](http://extraaedge.com) and request them for Demo setup after submitting your details. Extraaedge will mail you the Demo Setup and provide the Authorization Token and Source for integration set up..
+---
 
-### **Step 3 of 5: Enter Authorization Details and establish connection with your App**
+## Step 4: Map Parameters
 
-a. Enter Extraaedge Authorization Token and Source, and click the ‘Connect’ Button to
+1. Map the **Extraaedge fields** to the corresponding questions in your Convertalk chatbot flow.
+2. Use the **"+ Add Parameters"** button to add more field mappings.
 
-complete integration of  Convertalk with Extraaedge CRM.
+**Example:** Map the question *"Please provide your name?"* to Extraaedge's **Name** field. This ensures the user's response is sent to the correct field in Extraaedge.
 
-b. If you have entered all the details correctly, you will see a notification that says,
+<Info>
+Questions are auto-fetched from your bot's chat flow. Make sure your chat flow is configured before setting up mappings.
+</Info>
 
-“**Integrated Successfully.”**
+3. Once all fields are mapped correctly, you will see: **"Mapping Successfully."**
+4. The Extraaedge integration will show as **"Installed"** in the integrations list.
 
-### **Step 4 of 5: Set up Mapping Parameters**
+---
 
-a. Now, as connection of the  Convertalk and Extraaedge is established, you need
+## Step 5: Test Your Integration
 
-to map **parameters (fields) of Extraaedge** to the user response of the  Convertalk question.
+Create a dummy lead on your bot. The lead should appear in both your Convertalk dashboard and your Extraaedge account.
 
-You can use the **\+Add Parameters** button to add more fields.
+---
 
-For example, you select a question from All bot questions/components: Please provide your name?
+## Troubleshooting
 
-Then, you map it with the parameter -Name
+If the dummy lead is not appearing in Extraaedge, check the following:
 
-As a result, this mapping will enable integration to send the user's response from
+- **Wrong Authorization Details** — Verify that the Authorization Token and Source are entered correctly.
+- **Wrong Mapping Setup** — Ensure all mandatory Extraaedge fields are mapped to the correct Convertalk questions.
+- **Subscription** — Integrations are only available on paid plans. Verify your current subscription.
 
-Convertalk to the Extraaedge’s Name field in the leads. Similarly, in order for integration to work properly, you will require to map all other questions/ components of your Bot to Extraaedge fields.
+---
 
-Please note that these queries/questions options will be auto fetched from your bot chat flow, So, make sure you configure your chat flow first.
-
-b. If you have entered all the details correctly, you will see a notification that says,
-
-“**Mapping successfully.**
-
-c. Also, your Extraaedge CRM integration will show the message Installed in the
-
-Integration List.
-
-### **Step 5 of 5: Test your Integration Set up with Data**
-
-Once you have established a connection between Convertalk and **Extraaedge**, and the mapping is complete, you are ready to go for your first test lead. You can test your integration setup by creating a dummy lead on the bot. This lead should appear in your  Convertalk dashboard as well as in the Extraaedge you have integrated.
-
-### **Still Not Working, Let’s Troubleshoot\!**
-
-If you are not getting dummy lead from your Bot to Extraaedge, it may be due to the multiple reasons:
-
-- Wrong Authorization Details added- You will be required to check and see if all the authorization credentials such as API Token, API key, and/or URL has been entered correctly.
-- Wrong Mapping Set up - Your mapping with  Convertalk Question and App parameter is either incorrect or you haven’t added any mandatory parameter.
-- Free plan- You are not subscribed to the paid plan on  Convertalk as integration works only in paid plan.
+<Tip>
+If you are still unable to move forward, write to us at [support@convertalk.com](mailto:support@convertalk.com). We will respond within 48 business hours.
+</Tip>

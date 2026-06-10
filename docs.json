@@ -130,11 +130,7 @@
             "group": "3rd Party Apps Integrations",
             "pages": [
               "3-party-integration/chatgpt",
-              "3-party-integration/acuity_scheduling",
               "3-party-integration/microsoft_teams",
-              "3-party-integration/woocommerce",
-              "3-party-integration/autopilot",
-              "3-party-integration/firmaocrm",
               "3-party-integration/capsulecrm",
               "3-party-integration/facebook_pixel",
               "3-party-integration/eleviocrm",
@@ -146,7 +142,6 @@
               "3-party-integration/googlecalendar",
               "3-party-integration/googletask",
               "3-party-integration/googlegemini",
-              "3-party-integration/googletagmanager",
               "3-party-integration/helpshiftcrm",
               "3-party-integration/zendeskcrm",
               "3-party-integration/leadsquaredcrm",
@@ -174,7 +169,6 @@
               "3-party-integration/getresponse",
               "3-party-integration/groove",
               "3-party-integration/helpdocs",
-              "3-party-integration/bitrix24",
               "3-party-integration/freshwordscrm",
               "3-party-integration/insightlycrm",
               "3-party-integration/nimblecrm",
@@ -196,16 +190,10 @@
               "3-party-integration/simplybook",
               "3-party-integration/gitbook",
               "3-party-integration/gohighlevel",
-              "3-party-integration/voxloud",
-              "3-party-integration/viasocket",
               "3-party-integration/twilio",
               "3-party-integration/shopify",
               "3-party-integration/razorpay",
               "3-party-integration/pabbly",
-              "3-party-integration/outlook",
-              "3-party-integration/onpipeline",
-              "3-party-integration/notion",
-              "3-party-integration/moengage",
               "3-party-integration/kylascrm",
               "3-party-integration/googleanalytics",
               "3-party-integration/firstpromotor",
@@ -245,7 +233,6 @@
             "group": "Developer",
             "pages": [
               "developer/3_party_app_api",
-              "developer/api_access_token",
               "developer/webhook"
             ]
           },
@@ -264,13 +251,6 @@
             "pages": [
               "my-account/account",
               "my-account/password"
-            ]
-          },
-          {
-            "group" : "Suscription and Plans",
-            "pages" : [
-              "subscription-plan/legacy",
-              "subscription-plan/latest"
             ]
           },
           {
